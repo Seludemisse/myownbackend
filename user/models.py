@@ -28,8 +28,8 @@ class serviceProviders(models.Model):
     license_back = models.ImageField(upload_to='user/id')
     is_verified = models.BooleanField(default=False)
 
-    bank_account1 = models.CharField(max_length=255)
-    bank_account2 = models.CharField(max_length=255)
+    bank_account1 = models.CharField(max_length=255,default='')
+    bank_account2 = models.CharField(max_length=255,default='')
 
     
     def __str__(self) -> str:
