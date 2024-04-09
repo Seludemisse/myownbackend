@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'core',
     'user', 
     'post',
+    'delivery',
 ]
 
 AUTH_USER_MODEL = 'user.User'
